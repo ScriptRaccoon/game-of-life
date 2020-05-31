@@ -20,3 +20,5 @@ In the demo, you can
 -   start the generation animation and toggle its speed
 -   clear/randomize the grid
 -   choose one of several beautiful presets
+
+As for the colors: The recently born cells are drawn red, the other living cells are drawn blue. The recently killed colors are drawn gray, all other dead colors are drawn white.
