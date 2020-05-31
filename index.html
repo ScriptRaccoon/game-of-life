@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Game of Life</title>
+		<link rel=StyleSheet href="style.css" type="text/css" media=screen>
+		
+	</head>
+	
+	<body>
+	
+		<h2>  
+		  Game of Life
+		 </h2>
+
+		<div id="headingdiv">  
+		  <span class="left">
+		   Born Rule:
+			<input type="text" id="Binput" class="textinput" value="3">  
+			
+		   Survive Rule:
+			<input type="text" id="Sinput" class="textinput" value="23">
+		   </span>
+		   
+		   <span class="right">
+			 Population: <span id="population">0</span>
+			 |
+			 Generation: <span id="generation">0</span>
+		   </span>
+		  
+		 </div>
+		  
+		<div id="canvasdiv">
+		  <canvas width="840" height="640" id = "canvas">
+		</div>
+
+			  
+		<div id="controldiv">
+			<input type="button" id="nextbutton" value="Next state"></input>
+			<input type="button" id="startbutton" value="Start"></input>        
+			<input type="button" id="fasterbutton" value="Faster"></input>
+			<input type="button" id="slowerbutton" value="Slower"></input>      
+			<input type="button" id="clearbutton" value="Clear"></input>
+			<input type="button" id="randombutton" value="Random"></input>      
+			<select id="selectinput">
+			</select> 
+		</div> 
+
+		<div id="wikipedia">
+		  Check
+		  <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Wikipedia</a>
+		  for infos about the game.
+		</div>
+
+	</body>
+	
+	<script type="text/javascript" src="script.js"></script>
+	
+	
+</html>	
+		

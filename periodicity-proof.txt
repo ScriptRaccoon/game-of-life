@@ -1,0 +1,28 @@
+Proof that every start configuration becomes periodic
+
+M is the set of 0,1 - matrices of size (x,y)
+
+f : M ---> M is the transition function for the Game of Life
+
+a in M is a start configuration
+
+The Game of Life proceeds with
+
+a , f(a), f(f(a)), f(f(a)), etc.
+
+All of these live in the finite set M with 2^(x*y) elements.
+
+Thus, there must be some repetition in the first 2^(x*y) + 1 elmts.
+
+There must be 0 <= n < m <= 2^(x*y) with
+
+f^n(a) = f^m(a)
+
+Then we have a period of length k = m-n (or even smaller).
+
+f^(n+k)(a) = f^n(a)
+f^(n+k+1)(a) = f^(n+1)(a)
+...
+f^(n+2k)(a) = f^n(a)
+f^(n+2k+1)(a) = f^(n+1)(a)
+...

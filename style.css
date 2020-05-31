@@ -1,0 +1,107 @@
+body {
+    background-color: #020202;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ccc;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div {
+    width: 840px;
+    margin: 0 auto;
+}
+
+#headingdiv {
+    margin-top: 20px;
+}
+
+#controldiv {
+    text-align: center;
+}
+
+#wikipedia {
+    margin-top: 40px;
+    text-align: right;
+    color: #404040;
+}
+
+canvas {
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+}
+
+.textinput {
+    height: 100%;
+    width: 60px;
+}
+
+a {
+    color: inherit;
+}
+
+input {
+    margin: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: 16px;
+    background-color: #303038;
+    color: #ccc;
+}
+
+input[type="button"] {
+    height: 30px;
+}
+
+select {
+    margin: 0;
+    margin-left: 10px;
+    border: 0;
+    font-family: inherit;
+    font-size: 16px;
+    background-color: #303038;
+    color: #ccc;
+    height: 30px;
+    width: 150px;
+}
+
+#startbutton {
+    width: 70px;
+    margin-right: 10px;
+}
+
+#fasterbutton {
+    width: 70px;
+    margin-right: -3px;
+}
+
+#slowerbutton {
+    width: 80px;
+    margin-right: 10px;
+}
+
+#nextbutton {
+    width: 110px;
+    margin-right: 10px;
+}
+
+#clearbutton {
+    width: 70px;
+    margin-right: 10px;
+}
+
+#randombutton {
+    width: 90px;
+}
