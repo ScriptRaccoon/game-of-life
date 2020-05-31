@@ -21,4 +21,4 @@ In the demo, you can
 -   clear or randomize the grid
 -   choose one of several beautiful presets
 
-In the demo, the recently born cells are drawn red, the other living cells are drawn blue. The recently killed cells are drawn gray, all other dead colors are drawn white.
+In the demo, the recently born cells are drawn red, the other living cells are drawn blue. The recently killed cells are drawn gray, all other dead cells are drawn white.
