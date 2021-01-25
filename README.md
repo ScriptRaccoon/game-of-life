@@ -1,6 +1,6 @@
 # Game of Life
 
-Demo: https://jsfiddle.net/Script_Raccoon/485Ltcny/show
+Demo: https://play-the-game-of-life.netlify.app
 
 The [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) was invented by the mathematician John Conway. Even though the rules are very simple, very fascinating patterns can emerge from them.
 
